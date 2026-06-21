@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>医療分野における生成AIの実践的活用法 — 2026年4月ver</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --text:#1f2937; --muted:#6b7280;
+    --accent:#2563eb; --accent-soft:#eff6ff; --border:#e5e7eb;
+    --hl-bg:#fef7e0; --hl-bd:#f59e0b; --good:#059669; --warn:#dc2626;
+    --cite-bg:#f3f4f6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.7}
+  .deck{max-width:960px;margin:0 auto;padding:24px 16px 80px}
+  .slide{background:var(--card);border:1px solid var(--border);border-radius:12px;
+    padding:30px 34px;margin-bottom:24px;min-height:420px;position:relative}
+  .num{position:absolute;top:14px;right:18px;background:var(--cite-bg);color:var(--muted);
+    font-size:11px;padding:2px 9px;border-radius:999px}
+  h1{font-size:27px;margin:0 0 10px}
+  h2{font-size:22px;margin:0 0 18px;border-bottom:2px solid var(--border);padding-bottom:10px}
+  .ver{display:inline-block;background:var(--accent-soft);color:var(--accent);font-weight:600;
+    font-size:13px;padding:4px 12px;border-radius:999px;margin-top:8px}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0}
+  th,td{padding:10px 12px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+  th{background:var(--cite-bg);font-weight:600;font-size:12.5px;color:var(--muted)}
+  .key{background:var(--accent-soft);border-left:3px solid var(--accent);padding:12px 14px;
+    border-radius:0 8px 8px 0;margin:16px 0}
+  .key b{color:var(--accent)}
+  ul{margin:10px 0;padding-left:22px}
+  li{margin:7px 0}
+  .hl{color:var(--warn);font-weight:600}
+  .title-slide{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+  .title-slide .sub{color:var(--muted);font-size:15px;margin-top:6px}
+</style>
+</head>
+<body>
+<div class="deck">
+
+  <section class="slide title-slide">
+    <span class="num">1</span>
+    <h1>医療分野における生成AIの実践的活用法</h1>
+    <p class="sub">吉田和生｜慶應義塾大学病院 臨床研究推進センター</p>
+    <span class="ver">2026年4月ver</span>
+  </section>
+
+  <section class="slide">
+    <span class="num">2</span>
+    <h2>主要AIの料金体系</h2>
+    <table>
+      <thead><tr><th>サービス</th><th>主力モデル</th><th>個人向け有料プラン</th></tr></thead>
+      <tbody>
+        <tr><td><b>ChatGPT</b>（OpenAI）</td><td>GPT-5.4</td><td>Plus $20 / Pro $200</td></tr>
+        <tr><td><b>Claude</b>（Anthropic）</td><td>Opus 4.7</td><td>Pro $20 / Max $100〜</td></tr>
+        <tr><td><b>Gemini</b>（Google）</td><td>Gemini 3.1 Pro</td><td>$20 / AI Ultra ¥36,400</td></tr>
+        <tr><td><b>Cursor</b></td><td>各社モデルを横断</td><td>Hobby 無料 / Pro $20</td></tr>
+      </tbody>
+    </table>
+    <div class="key"><b>結論</b>：迷ったら ChatGPT。長文・自走作業は Claude。月$20帯で1つ選べば十分。</div>
+  </section>
+
+  <section class="slide">
+    <span class="num">3</span>
+    <h2>まとめ — AIエージェント時代の構え</h2>
+    <ul>
+      <li>とりあえず、AIエージェントを使ってみる</li>
+      <li>プロンプトの型にこだわりすぎず、やりたいことを言葉にして対話する</li>
+      <li>能力を 0→1 にする道具ではなく、<span class="hl">10→100</span> にするものと考える</li>
+      <li>アウトプットは必ずファクトチェック。剽窃・個人情報の入力に注意</li>
+      <li>どこまで権限を渡すかは、自由さとリスクのトレードオフで考える</li>
+    </ul>
+  </section>
+
+</div>
+</body>
+</html>
